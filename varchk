@@ -1,0 +1,7 @@
+#! /bin/bash
+
+python --version
+java --version
+gcc --version
+ruby --version
+

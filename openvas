@@ -1,0 +1,14 @@
+#! /bin/bash
+
+sudo add-apt-repository ppa:mrazavi/openvas
+sudo apt update -y
+# apt upgrade -y
+sudo apt install sqlite3 openvas9 -y
+sudo openvas-nvt-sync
+sudo openvas-scapdata-sync
+sudo openvas-certdata-sync
+
+sudo service openvas-scanner restart
+sudo service openvas-manager restart
+sudo openvasmd --rebuild --progress
+

@@ -1,0 +1,9 @@
+#! /bin/bash
+
+sudo apt install -y git-core gnupg flex bison gperf libesd0-dev build-essential
+sudo apt install -y zip curl libncurses5-dev zlib1g-dev gcc-multilib g++-multil$
+sudo apt install -y alien binutils-multiarch
+sudo apt install git-core gnupg flex bison gperf build-essential zip curl zlib1$
+
+
+
